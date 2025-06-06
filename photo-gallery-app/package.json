@@ -1,0 +1,25 @@
+{
+  "name": "photo-gallery-app",
+  "version": "1.0.0",
+  "description": "Galería de fotos integrada con Google Drive",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build needed for static site'",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "googleapis": "^127.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "keywords": [
+    "photography",
+    "gallery",
+    "google-drive",
+    "netlify"
+  ]
+}

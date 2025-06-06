@@ -1,6 +1,8 @@
 [build]
-  publish = "dist"
-  command = "npm run build"
+  # Para sitios estáticos, publicamos desde la raíz
+  publish = "."
+  # No necesitamos comando de build
+  command = "echo 'Static site deployed'"
 
 [[redirects]]
   from = "/*"
@@ -9,3 +11,7 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+# Configuración para funciones serverless (si las usas)
+[functions]
+  directory = "netlify/functions"

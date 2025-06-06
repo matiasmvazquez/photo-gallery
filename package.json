@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'No build needed for static site'",
+    "build": "echo 'Static site - no build required'",
     "start": "netlify dev"
   },
   "dependencies": {
